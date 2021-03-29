@@ -1,19 +1,18 @@
 # vue-option-composition
 
-## Project setup
-```
-yarn install
-```
+The goal of this project was just to compare the diferences of the Options API vs the Composition API of vue 3.
 
-### Compiles and hot-reloads for development
+It consists of a small todo-app with two views with the same template, but one using the data, computed, methods and watch options. And the other view using only the setup method
+
+## Run the project
+Install the dependencies with:
+```
+yarn
+```
+Run the development server with :
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### References
+Project made following [this tutorial](https://www.youtube.com/watch?v=mZFuR3-oNXQ&ab_channel=MakeAppswithDanny).
